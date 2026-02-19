@@ -5,7 +5,7 @@ export default function HeroBanner() {
     <section className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen bg-black">
       <div className="relative h-[340px] sm:h-[440px] lg:h-[560px]">
         <img
-          src="/hero.webp"
+          src={`/Hero.webp`}
           alt="Hero"
           className="h-full w-full object-cover"
         />
